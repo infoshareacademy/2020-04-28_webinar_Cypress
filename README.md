@@ -7,6 +7,7 @@ Cześć, w tym repo znajdziedzie kod, który powstał w czasie webinaru na temat
 
 Wkrótce też na kanale [InfoShare Academy](https://www.youtube.com/channel/UC5wCWXYVEXlQ8Fay9UcF7bw)!
 
+
 ## Jak uruchomić testy
 
 - Najpiew pobierz lub sklonuj to repozytorium 

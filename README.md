@@ -3,11 +3,11 @@
 
 Cześć, w tym repo znajdziedzie kod, który powstał w czasie webinaru na temat testów automatycznych w Cypress 🙂
 
-[Nagranie Webinaru](https://www.facebook.com/infoshareacademy/videos/559972424930641/)
+🎥 [Nagranie Webinaru](https://www.facebook.com/infoshareacademy/videos/559972424930641/) 
 
-Wkrótce też na kanale [InfoShare Academy](https://www.youtube.com/channel/UC5wCWXYVEXlQ8Fay9UcF7bw)!
+🔜 Wkrótce też na kanale [InfoShare Academy](https://www.youtube.com/channel/UC5wCWXYVEXlQ8Fay9UcF7bw)! 
 
-[Prezentacja w .pdf](https://github.com/infoshareacademy/2020-04-28_webinar_Cypress/blob/master/Cypress%20-%20Webinar%202020.pdf)
+📄 [Prezentacja w .pdf](https://github.com/infoshareacademy/2020-04-28_webinar_Cypress/blob/master/Cypress%20-%20Webinar%202020.pdf)
 
 ## Jak uruchomić testy
 

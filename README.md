@@ -14,9 +14,15 @@ Wkrótce też na kanale [InfoShare Academy](https://www.youtube.com/channel/UC5w
 ```bash
     npm install
 ```
-- następnie uruchom Cypress
+- następnie uruchom Cypress (aby uruchomić w domyślnej przeglądarce)
 ``` bash
-    npm cypress:open
+    npm run cypress:open
+```
+
+
+Można też uruchomić w trybie `headless`:
+```bash 
+    npm run cypress:headless
 ```
 
 

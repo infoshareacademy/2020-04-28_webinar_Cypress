@@ -1,0 +1,25 @@
+{
+  "name": "cypress-todo-webinar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:headless": "cypress run --headless --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maciekek/cypress-todo-webinar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maciekek/cypress-todo-webinar/issues"
+  },
+  "homepage": "https://github.com/Maciekek/cypress-todo-webinar#readme",
+  "dependencies": {
+    "cypress": "^4.4.1"
+  }
+}

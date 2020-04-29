@@ -1,7 +1,7 @@
 # Cypress.io - [webinar](https://www.facebook.com/infoshareacademy/videos/559972424930641/)
 
 
-Cześć, w tym repo znajdziedzie kod, który powstał w czasie webinaru na temat testów automatycznych w Cypress 🙂
+Cześć, w tym repo znajdziesz kod, który powstał w czasie webinaru na temat testów automatycznych w Cypress 🙂
 
 🎥 [Nagranie Webinaru](https://www.facebook.com/infoshareacademy/videos/559972424930641/) 
 
@@ -11,8 +11,8 @@ Cześć, w tym repo znajdziedzie kod, który powstał w czasie webinaru na temat
 
 ## Jak uruchomić testy
 
-- Najpiew pobierz lub sklonuj to repozytorium 
-- następnie w tym katalogu wykonak polecenie:  
+- najpiew pobierz lub sklonuj to repozytorium 
+- następnie w tym katalogu wykonaj polecenie:  
 ```bash
     npm install
 ```

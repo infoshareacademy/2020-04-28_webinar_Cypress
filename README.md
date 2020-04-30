@@ -5,7 +5,7 @@ Cześć, w tym repo znajdziesz kod, który powstał w czasie webinaru na temat t
 
 🎥 [Nagranie Webinaru](https://www.facebook.com/infoshareacademy/videos/559972424930641/) 
 
-🔜 Wkrótce też na kanale [InfoShare Academy](https://www.youtube.com/channel/UC5wCWXYVEXlQ8Fay9UcF7bw)! 
+🎬 [YouTube](https://www.youtube.com/watch?v=SDqda0K09R4&feature=youtu.be)
 
 📄 [Prezentacja w .pdf](https://github.com/infoshareacademy/2020-04-28_webinar_Cypress/blob/master/Cypress%20-%20Webinar%202020.pdf)
 

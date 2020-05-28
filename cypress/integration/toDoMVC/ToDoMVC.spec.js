@@ -31,17 +31,9 @@ describe('ToDo App', () => {
       const secondItem = "second Item";
       const thirdItem = "third Item";
 
-      cy.screenshot()
-      cy.pause();
-      cy.log('Hello jest tu')
-
       addNewItem(firstItem)
       addNewItem(secondItem)
       addNewItem(thirdItem)
-
-      // cy.get('input.new-todo').type(firstItem).type('{enter}');
-      // cy.get('input.new-todo').type(secondItem).type('{enter}');
-      // cy.get('input.new-todo').type(thirdItem).type('{enter}');
 
       cy.get('.todo-list li').eq(0).should('contain.text', firstItem)
       cy.get('.todo-list li').eq(1).should('contain.text', secondItem)

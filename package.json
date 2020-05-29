@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
+    "cypress:open:dev": "CYPRESS_ENV=dev cypress open",
+    "cypress:open:prod": "CYPRESS_ENV=prod cypress open",
     "cypress:headless": "cypress run --headless --browser chrome"
   },
   "repository": {

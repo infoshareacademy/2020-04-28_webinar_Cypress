@@ -1,4 +1,5 @@
 import {addNewItem} from "../../support/utils";
+import {addItem} from "../../utils/todo.actions";
 
 describe('ToDo App', () => {
   context('When page initially loaded', () => {
@@ -27,17 +28,95 @@ describe('ToDo App', () => {
     });
 
     it('should add 3 items with proper order ', () => {
-      const firstItem = "first Item";
-      const secondItem = "second Item";
-      const thirdItem = "third Item";
+      // const firstItem = "first Item";
+      // const secondItem = "second Item";
+      // const thirdItem = "third Item";
 
-      addNewItem(firstItem);
-      addNewItem(secondItem);
-      addNewItem(thirdItem);
+      cy.fixture(`todo-${Cypress.env("ENV")}`).then(data => {
+        addNewItem(data.firstItem);
+        addNewItem(data.secondItem);
+        addNewItem(data.thirdItem);
 
-      cy.get('.todo-list li').eq(0).should('contain.text', firstItem)
-      cy.get('.todo-list li').eq(1).should('contain.text', secondItem)
-      cy.get('.todo-list li').eq(2).should('contain.text', thirdItem)
+        // cy.get('.todo-list li').eq(0).should('contain.text', firstItem);
+        // cy.get('.todo-list li').eq(1).should('contain.text', secondItem);
+        // cy.get('.todo-list li').eq(2).should('contain.text', thirdItem);
+
+
+        cy.get('.todo-list li').then((elements) => {
+          console.log(elements);
+          expect(elements).to.have.length(3)
+
+          expect(elements[0]).to.contains.text(data.firstItem)
+          expect(elements[1]).to.contains.text(data.secondItem)
+          expect(elements[2]).to.contains.text(data.thirdItem)
+
+        })
+
+
+
+      });
+
+
     })
   })
+
+
+  context("Request and route", () => {
+    beforeEach(() => {
+      cy.visit('')
+    })
+
+
+    it('Request demo', () => {
+      cy.server();
+
+      cy.request('GET', 'https://jsonplaceholder.typicode.com/users').then((response) => {
+        console.log(response);
+
+        expect(response.body).to.have.length(10);
+        expect(response.status).to.be.equal(200);
+
+      })
+
+    })
+
+    it('Route demo', () => {
+      cy.server();
+
+
+      cy.route({
+        url: '/users',
+        status: 400,
+        response: {message: "error"},
+        onRequest: (requestData) => {
+          console.log(requestData)
+
+          // expect('').to.be
+        }
+      }).as('getUsersRequest');
+
+      cy.get('#save').click()
+
+      cy.wait('@getUsersRequest').then(response => {
+        expect(response.status).to.be.equal(400)
+      })
+    })
+
+
+  })
+
+  context('App actions demo', () => {
+    beforeEach(() => {
+      cy.visit('')
+    });
+
+    it.only('app actions demo', () => {
+      addItem('item 1');
+      addItem('item 2');
+      addItem('item 3');
+    })
+  })
+
+
+
 });

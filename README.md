@@ -24,6 +24,7 @@ Cześć, w tym repo znajdziesz kod, który powstał w czasie webinaru na temat t
 
 
 
+
 ### Jak uruchomić testy
 
 - najpiew pobierz lub sklonuj to repozytorium 

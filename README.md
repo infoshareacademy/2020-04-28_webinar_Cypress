@@ -12,7 +12,7 @@ Cześć, w tym repo znajdziesz kod, który powstał w czasie webinaru na temat t
 
 🎬 [YouTube](https://www.youtube.com/watch?v=SDqda0K09R4&feature=youtu.be)
 
-📄 [Prezentacja w .pdf](https://github.com/infoshareacademy/2020-04-28_webinar_Cypress/blob/master/Cypress%20-%20Webinar%202020.pdf)
+📄 [Prezentacja w .pdf](https://github.com/infoshareacademy/2020-04-28_webinar_Cypress/blob/master/Cypress%20-%20czesc%201.pdf)
 
 ## Część druga
 
@@ -20,7 +20,7 @@ Cześć, w tym repo znajdziesz kod, który powstał w czasie webinaru na temat t
 
 🎬 Coming soon!
 
-📄 [Prezentacja w .pdf](https://github.com/infoshareacademy/2020-04-28_webinar_Cypress/blob/part_2/Cypress%20czesc%202.pdf)
+📄 [Prezentacja w .pdf](https://github.com/infoshareacademy/2020-04-28_webinar_Cypress/blob/master/Cypress%20-%20czesc%202.pdf)
 
 
 
